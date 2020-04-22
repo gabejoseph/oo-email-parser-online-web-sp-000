@@ -17,7 +17,7 @@ class EmailAddressParser
   
   def parse 
     binding.pry
-    # if @@all.include?(@email_addresses.split(/\, |\ /))
+    @@all.detect()
     @email_addresses.split(/\, |\ /)
   end  
   
