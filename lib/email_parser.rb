@@ -17,7 +17,7 @@ class EmailAddressParser
   
   def parse 
     binding.pry
-    @@all.detect()
+    # @@all.detect()
     @email_addresses.split(/\, |\ /)
   end  
   
