@@ -16,10 +16,9 @@ class EmailAddressParser
   end 
   
   def parse 
-    # binding.pry
-    if !@@all.each{|x| x == @email_addresses.split(/\, |\ /)}
-      @email_addresses.split(/\, |\ /)
-    end
+    binding.pry
+    if @@all.each{|x| x == @email_addresses.split(/\, |\ /)}
+    @email_addresses.split(/\, |\ /)
   end  
   
 end 
