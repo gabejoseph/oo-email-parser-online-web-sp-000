@@ -16,7 +16,7 @@ class EmailAddressParser
   end 
   
   def parse 
-    if @@all.include?()
+    if @@all.include?(@email_addresses.split(/\, |\ /))
       @email_addresses.split(/\, |\ /)
   end  
   
